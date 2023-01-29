@@ -1,0 +1,29 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.page-top {
+    padding-top: 40px;
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.page-top-content {
+    margin-top: 164px;
+}
+
+.page-top-title {
+    margin-bottom: 17px;
+}
+
+.page-top-txt {
+    margin-bottom: 37px;
+}
+
+.page-top-logos {
+    margin-top: 243px;
+}
