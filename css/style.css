@@ -3,27 +3,140 @@ margin: 0;
 padding: 0;
 }
 
-.page-top {
-    padding-top: 40px;
+body {
+background: white;
+color: black;
+font-family: Roboto;
 }
+
+.center {
+    width: 100%;
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+/* ================= Header ================== */
+
+/*.page-top {
+    padding-top: 40px;
+}*/
 
 .header {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 89px auto;
 }
 
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu-item-link {
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    text-decoration: none;
+    }
+
+.menu-item-link:hover {
+    color:#F25822;
+}
+
+.menu-item-link:active {
+    color: #888888;
+}
+
+    .orange{
+        color: #F25822;
+    }
+
+/* ================= END Header ================== */
+
+/* ================= page-top-content ============ */
+
 .page-top-content {
-    margin-top: 164px;
+    display: flex;
+    gap: 40px;
+    margin-top: 95px;
+}
+
+.page-top-desc {
+    width: 100%;
+    max-width: 525px;
+    margin: 0 auto;
 }
 
 .page-top-title {
+    font-size: 60px;
+    line-height: 70px;
     margin-bottom: 17px;
 }
 
 .page-top-txt {
+    width: 100%;
+    max-width: 466px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
     margin-bottom: 37px;
 }
 
-.page-top-logos {
-    margin-top: 243px;
+.page-top-wrp-btn {
+    display: flex;
+    gap: 27px;
+    justify-content: flex-start;
 }
+
+.btn-start {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 15px 35px;
+}
+
+.btn-watch {
+    background: white;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    padding: 15px 35px;
+}
+
+.btn-start:hover {
+    color:#F25822;
+    background-color: #FFFFFF;
+}
+
+.btn-watch:hover {
+    color:#FFFFFF;
+    background-color:#AAAAAA;
+}
+
+/* ================= END page-top-content ============ */
+
+/* ================= page-top-logos ============ */
+
+.page-top-logos {
+    margin: 243px auto 96px auto;
+}
+
+.logos-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 48px;
+    list-style: none;
+}
+
+/* ================= END page-top-logos ============ */
