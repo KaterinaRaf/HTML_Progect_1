@@ -140,3 +140,81 @@ font-family: Roboto;
 }
 
 /* ================= END page-top-logos ============ */
+/* =================  Value-top ============ */
+
+.values {
+
+}
+
+.value-top {
+height: 491px;
+display: flex;
+align-content: center;
+gap: 60px;
+}
+
+.value-top-item {
+    width: 100%;
+    max-width: 310px;
+    height: 226px;
+    margin-top: 140px;
+    margin-bottom: 125px;
+}
+
+.value-top-item-1 {
+    width: 370px;
+    height: 291px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    padding: 40px 31px 25px 29px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.value-top-icon {
+    width: 70px;
+    height: 70px;
+    background-color: cover;
+    background-repeat: no-repeat;
+}
+
+.value-top-item:nth-child(1) > .value-top-icon {
+    background-image: url('../img/value_top_icon1.png');
+}
+
+.value-top-item-1 > .value-top-icon {
+    background-image: url('../img/value_top_icon2.png');
+}
+
+.value-top-item:nth-child(3) > .value-top-icon {
+    background-image: url('../img/value_top_icon3.png');
+}
+
+.value-top-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 25px auto 17px 0px;
+}
+
+.value-top-txt {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    width: 310px;
+    height: 42px;
+    margin: auto auto 25px 0px;
+}
+
+.value-top-btn {
+    background: white;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    padding: 15px 15px;
+    font-size: 11px;
+    line-height: 150%;
+    color: black;
+    margin-bottom: 125px;
+}
+
+/* ================= END Value-top ============ */
+/* =================  Value-top ============ */
