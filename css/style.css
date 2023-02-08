@@ -12,7 +12,7 @@ font-family: Roboto;
 .center {
     width: 100%;
     max-width: 1172px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 /* ================= Header ================== */
@@ -140,22 +140,19 @@ font-family: Roboto;
 }
 
 /* ================= END page-top-logos ============ */
+
 /* =================  Value-top ============ */
 
-.values {
-
-}
-
 .value-top {
-height: 491px;
-display: flex;
-align-content: center;
-gap: 60px;
+    height: 491px;
+    display: flex;
+    justify-content: column;
+    align-content: center;
+    gap: 60px;
 }
 
 .value-top-item {
-    width: 100%;
-    max-width: 310px;
+    width: 310px;
     height: 226px;
     margin-top: 140px;
     margin-bottom: 125px;
@@ -206,7 +203,6 @@ gap: 60px;
 
 .value-top-btn {
     background: white;
-    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
     border: none;
     padding: 15px 15px;
@@ -216,5 +212,121 @@ gap: 60px;
     margin-bottom: 125px;
 }
 
+
+
 /* ================= END Value-top ============ */
-/* =================  Value-top ============ */
+
+/* =================  Value-content ============ */
+
+.value-content {
+    width: 100%;
+    max-width: 1920px;
+    height: 919px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+}
+
+.value-text {
+    width: 100%;
+    max-width: 862px;
+    height: 123px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.value-center-title {
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    margin: 92px auto 19px auto;
+}
+
+.value-center-txt {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 55px;
+}
+
+.value-content-logo {
+    height: 549px;
+    display: flex;
+    justify-content: column;
+    align-content: center;
+    gap: 30px;
+}
+
+.value-content-item {
+    width: 370px;
+    height: 549px;
+    background-color:#FFFFFF;
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+.value-content-item-1 {
+    width: 370px;
+    height: 549px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    background-color:#FFFFFF;
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+.value-content-icon {
+    width: 370px;
+    height: 270px;
+    background-color: cover;
+    background-repeat: no-repeat;
+}
+
+.value-content-item:nth-child(1) > .value-content-icon {
+    background-image: url('../img/value_content_pic_1.png');
+}
+
+.value-content-item-1 > .value-content-icon {
+    background-image: url('../img/value_content_pic_2.png');
+}
+
+.value-content-item:nth-child(3) > .value-content-icon {
+    background-image: url('../img/value_content_pic_3.png');
+}
+
+.value-content-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 25px 83px 22px 83px;
+}
+
+.value-content-txt {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    text-align: center;
+    width: 310px;
+    height: 42px;
+    margin: 0 30px 39px 30px;
+}
+
+.value-content-btn {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    margin: 10px 100px 50px 120px;
+}
+
+.value-content-btn:hover {
+    color:#F25822;
+    background-color: #FFFFFF;
+}
+
+/* ================= END Value-content ============ */
